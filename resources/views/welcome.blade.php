@@ -209,6 +209,9 @@
             </nav>
         </div>
 
+<h1> </h1>
+        <img src="{{ asset('/images/homePage/lts header.png')}}">
+
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
             <div class="col-md-6 px-0">
                 <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
