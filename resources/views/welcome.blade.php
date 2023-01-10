@@ -194,14 +194,33 @@
                 </h2>
                 <h6>Apprenez à apprendre, découvrez les compétences de demain, et prenez votre carrière en main.</h6>
             </div>
-            <p class="col-lg-8" style="height: 700px;">
+            <p class="col-lg-8" >
                 <img src="{{ asset('/images/homePage/lts header.png') }}"   class="img-fluid">
             </p>
         </div>
+
+
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/student-online-learning-with-laptop-5559088-4644784.png  " class="img-fluid" height="300px">
+            </div>
+            <div class="col-lg-6">
+            </div>
+            <div class="col-lg-6">
+            </div>
+            <div class="col-lg-6">
+                <img src="    https://static.vecteezy.com/system/resources/previews/009/312/916/original/student-showing-thumbs-up-3d-illustration-chartoon-character-cute-boy-png.png
+  " class="img-fluid" height="300px">
+            </div>
+        </div>
     </div>
 
-{{--        <img src="{{ asset('/images/homePage/lts header.png')}}">--}}
 
+    <div class="container">
+
+
+    </div>
 
     <footer class="blog-footer">
         <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a
