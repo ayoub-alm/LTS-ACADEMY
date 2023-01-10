@@ -203,15 +203,24 @@
 
         <div class="row">
             <div class="col-lg-6">
-                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/student-online-learning-with-laptop-5559088-4644784.png  " class="img-fluid" height="300px">
+                <img src="https://unblast.com/wp-content/uploads/2020/05/Back-to-School-Illustration.jpg  " class="img-fluid" height="300px">
+            </div>
+            <div class="col-lg-6 p-5 text-center">
+                <h1 >
+                    Votre avenir commence
+                    <span> <br> ici <br> </span>
+
+                </h1>
+            </div>
+            <div class="col-lg-6 p-5 text-center">
+                <h1 >
+                    Votre avenir commence
+                    <span> <br> ici <br> </span>
+
+                </h1>
             </div>
             <div class="col-lg-6">
-            </div>
-            <div class="col-lg-6">
-            </div>
-            <div class="col-lg-6">
-                <img src="    https://static.vecteezy.com/system/resources/previews/009/312/916/original/student-showing-thumbs-up-3d-illustration-chartoon-character-cute-boy-png.png
-  " class="img-fluid" height="300px">
+                <img src=" https://thumbs.dreamstime.com/b/students-receive-education-remotely-learning-foreign-languages-online-learning-foreign-languages-online-139292835.jpg" class="img-fluid" height="300px">
             </div>
         </div>
     </div>
