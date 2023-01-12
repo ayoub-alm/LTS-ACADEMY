@@ -10,7 +10,7 @@
     <title>Blog Template · Bootstrap</title>
     <link href="{{ asset('css/style.css') }}" role="stylesheet">
     <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/blog/">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css"
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" >
 
 
     <!-- Bootstrap core CSS -->
@@ -180,8 +180,9 @@
                 <a class="p-2 link-secondary" href="#">Travel</a>
             </nav>
         </div>
-
     </div>
+
+
     <div class="container mt-2" >
         <div class="row">
             <div class="col-lg-4 text-center ">
@@ -200,42 +201,17 @@
         </div>
 
 
-
-        <div class="text-center" >
-            <div class="row featurette">
-                <div class="col-md-6">
-                    <img src="{{ asset('/images/homePage/section-img.png') }} " class="img-fluid" height="250px">
-                </div>
-                <div class="col-md-6 text-with-img">
-                    <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                    <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-                </div>
-            </div>
-            <div class="row featurette mt-5">
-                <div class="col-md-6 order-md-1">
-                    <img src=" {{ asset('/images/homePage/section-img2.png') }}" class="img-fluid" height="250px">
-                </div>
-                <div class="col-md-6 text-with-img">
-                    <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                    <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-                </div>
-            </div>
-        </div>
-
-    <main>
-
-
-
+    </div>
 
         <!-- Marketing messaging and featurettes
         ================================================== -->
         <!-- Wrap the rest of the page in another container to center all the content. -->
 
-        <div class="container-fluid text-center">
+        <div class="container text-center">
 
-            <h3 class="display-3    m-5">
+            <h4 class="display-3    m-5">
                 <span class="red-color"> Nos </span> <span class="blue-color"> Valeurs </span>
-            </h3>
+            </h4>
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
@@ -253,62 +229,112 @@
                     <h2 class="fw-normal yellow-color" > <br> Accompagnement <br> individuel</h2>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
-
+        </div><!-- /.container -->
             <h2 class="display-3 m-5">
                 <span class="red-color"> Nos </span> <span class="blue-color"> Formation </span>
             </h2>
-            <!-- START THE FEATURETTES -->
 
-            <hr class="featurette-divider">
-         <div class="" >
-            <div class="row featurette">
-                <div class="col-md-6">
-                    <h2 class="featurette-heading fw-normal lh-1">QHSE </h2>
-                    <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+
+{{--            ******************************************************************************************************--}}
+
+<div class="container">
+            <div class=" row text-center">
+                <div class="card  col-lg-4">
+                    <img src="https://institut-superieur-environnement.com/content/uploads/2022/03/metier-responsable-qse.jpg" class="card-img-top" height="" width="400" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">RESPONSABLE QHSE</h4>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="https://institut-superieur-environnement.com/content/uploads/2022/03/metier-responsable-qse.jpg"  class="img-fluid" >
+                <div class="card col-lg-4">
+                    <img src="https://lafactory.ma/wp-content/uploads/2020/05/Paramedical.jpeg" class="card-img-top" height="" width="400" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">PARAMÉDICAL</h4>
+                    </div>
+                </div>
+                <div class="card col-lg-4">
+                    <img src="https://www.usnews.com/dims4/USNEWS/fb6e5fb/2147483647/crop/2000x1334%2B0%2B2/resize/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F65%2F62%2Fc9cb60d24ac89d56462b1228574a%2F201009-codingcomputer-stock.jpg" class="card-img-top" height="" width="400" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">DEVELOPPEMENT WEB</h4>
+                    </div>
+                </div>
+
+                <div class="card col-lg-4">
+                    <img src="https://aujourdhui.ma/wp-content/uploads/2018/01/Energie-renouvelable-economie-verte.jpg" class="card-img-top" height="" width="400" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">L'ENERGIE RENOUVELABLE</h4>
+                    </div>
+                </div>
+
+
+                <div class="card col-lg-4">
+                    <img src="https://us.123rf.com/450wm/rido/rido2002/rido200200154/rido200200154.jpg" class="card-img-top" height="" width="400" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">DÉLÉGUÉ MÉDICAL</h4>
+                    </div>
+                </div>
+
+
+                <div class="card col-lg-4">
+                    <img src="https://supplychaininfo.eu/wp-content/uploads/2022/06/quels-differents-types-logistique-1.jpg" class="card-img-top" height="" width="400" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">LOGISTIQUE</h4>
+                    </div>
+                </div>
+
+
+                <div class="card col-lg-4">
+                    <img src="https://img.freepik.com/photos-gratuite/homme-papiers_1098-15660.jpg?w=2000" class="card-img-top" height="" width="400" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">COMPTABILITÉ</h4>
+                    </div>
+                </div>
+
+
+                <div class="card col-lg-4">
+                    <img src="https://supplychaininfo.eu/wp-content/uploads/2022/06/quels-differents-types-logistique-1.jpg" class="card-img-top" height="" width="400" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">LANGUES</h4>
+                    </div>
                 </div>
             </div>
 
-            <hr class="featurette-divider">
 
-            <div class="row featurette">
-                <div class="col-md-6 order-md-2">
-                    <h2 class="featurette-heading fw-normal lh-1">Paramedical</h2>
-                    <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-                </div>
-                <div class="col-md-6 order-md-1">
-                    <img src="https://lafactory.ma/wp-content/uploads/2020/05/Paramedical.jpeg"  class="img-fluid" >
-                </div>
+
+
+</div>
+
+
+
+
+    <div class="text-center container" >
+        <div class="row featurette">
+            <div class="col-md-6">
+                <img src="{{ asset('/images/homePage/section-img.png') }} " class="img-fluid" height="250px">
             </div>
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-6">
-                    <h2 class="featurette-heading fw-normal lh-1"> Logistique </h2>
-                    <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="https://supplychaininfo.eu/wp-content/uploads/2022/06/quels-differents-types-logistique-1.jpg"  class="img-fluid" >
-                </div>
+            <div class="col-md-6 text-with-img">
+                <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
             </div>
-         </div>
-            <hr class="featurette-divider">
+        </div>
+        <div class="row featurette mt-5">
+            <div class="col-md-6 order-md-1">
+                <img src=" {{ asset('/images/homePage/section-img2.png') }}" class="img-fluid" height="250px">
+            </div>
+            <div class="col-md-6 text-with-img">
+                <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+            </div>
+        </div>
+    </div>
 
-            <!-- /END THE FEATURETTES -->
-
-        </div><!-- /.container -->
 
 
-        <!-- FOOTER -->
-        <footer class="container">
-            <p class="float-end"><a href="#">Back to top</a></p>
-            <p>© 2017–2022 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-        </footer>
-    </main>
 
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2017–2022 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
     <footer class="blog-footer">
         <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a
                 href="https://twitter.com/mdo">@mdo</a>.</p>
