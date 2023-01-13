@@ -230,7 +230,7 @@
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
-            <h2 class="display-3 m-5">
+            <h2 class="display-3 m-5 text-center">
                 <span class="red-color"> Nos </span> <span class="blue-color"> Formation </span>
             </h2>
 
