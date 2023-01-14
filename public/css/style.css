@@ -41,9 +41,10 @@
     backdrop-filter: blur( 4.5px );
     -webkit-backdrop-filter: blur( 13.5px );
     border-radius: 10px;
-    font-size: 1.5em;
+    font-size: 1.8em;
     overflow: hidden;
-    margin:15px;
+    margin:10px;
+    border: solid 4px #4db8c4  ;
 }
 
 .RENOUVELABLE{
