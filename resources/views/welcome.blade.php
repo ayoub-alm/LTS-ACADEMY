@@ -103,6 +103,10 @@
             font-size: .875rem;
         }
 
+        body{
+            font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+            /*background: rgba(77, 184, 196, 0.1);*/
+        }
 
 
         @media (min-width: 768px) {
@@ -185,7 +189,7 @@
 
     <div class="container mt-2" >
         <div class="row">
-            <div class="col-lg-4 text-center ">
+            <div class="col-lg-3 m-2 text-center ">
 
                 <img src="{{ asset('/images/logo.jpg') }}" width="200px">
                 <h2 >
@@ -209,91 +213,97 @@
 
         <div class="container text-center">
 
-            <h4 class="display-3    m-5">
-                <span class="red-color"> Nos </span> <span class="blue-color"> Valeurs </span>
-            </h4>
+            <h5 class="display-3    m-5">
+                <span class="red-color"> Nos  Valeurs</span>
+            </h5>
             <!-- Three columns of text below the carousel -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="{{ asset('/images/homePage/icon1.png') }}" alt="icon1" class="img-fluid"  width="140" height="140"     >
-                    <h2 class="fw-normal red-color">Foramtion de <br> Qualité</h2>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-3 m-2">
+                    <p style="width:200px;height: 200px;text-align: center;margin: auto;overflow: hidden" class="row d-flex flex-column justify-content-center">
+                        <img src="{{ asset('/images/homePage/icon1.png') }}" alt="icon1" class="img-fluid"  width="120" height="120"     >
+                    </p>
+                    <h2 class="fw-normal gray-color">Foramtion de <br> Qualité</h2>
 {{--                    <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>--}}
 
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img src="{{ asset('/images/homePage/icon2.png') }}" alt="icon1" class="img-fluid"  width="170" height="170"     >
-                    <h2 class="fw-normal blue-color">  Formateurs  <br> professionnels</h2>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img src="{{ asset('/images/homePage/icon3.png') }}" alt="icon1" class="img-fluid"  width="170" height="170"     >
-                    <h2 class="fw-normal yellow-color" > <br> Accompagnement <br> individuel</h2>
-                </div><!-- /.col-lg-4 -->
+                </div><!-- /.col-lg-3 m-2 -->
+                <div class="col-lg-3 m-2">
+                    <p style="width:200px;height: 200px;text-align: center;margin: auto;" class="row d-flex flex-column justify-content-center">
+                        <img src="{{ asset('/images/homePage/icon2.png') }}" alt="icon1" class="img-fluid"  width="170" height="170"     >
+                    </p>
+                    <h2 class="fw-normal gray-color">  Formateurs  <br> professionnels</h2>
+                </div><!-- /.col-lg-3 m-2 -->
+                <div class="col-lg-3 m-2 ">
+                    <p style="width:200px;height: 200px;text-align: center;margin: auto;overflow: hidden" class="row d-flex flex-column justify-content-center">
+                        <img src="{{ asset('/images/homePage/icon3.png') }}" alt="icon1" class="img-fluid"  width="170" height="170"     >
+                    </p>
+                    <h2 class="fw-normal gray-color" > Accompagnement <br> individuel</h2>
+                </div><!-- /.col-lg-3 m-2 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
             <h2 class="display-3 m-5 text-center">
-                <span class="red-color"> Nos </span> <span class="blue-color"> Formation </span>
+                <span class="blue-color"> Nos Formations </span>
             </h2>
 
 
 {{--            ******************************************************************************************************--}}
 
-<div class="container">
-            <div class=" row text-center">
-                <div class="card  col-lg-4">
+<div class="container ">
+            <div class=" row text-center d-flex justify-content-around">
+                <div class="card  col-lg-3 m-2">
                     <img src="https://institut-superieur-environnement.com/content/uploads/2022/03/metier-responsable-qse.jpg" class="card-img-top" height="" width="400" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">RESPONSABLE QHSE</h4>
+                        <h5 class="card-title filier">RESPONSABLE QHSE</h5>
                     </div>
                 </div>
-                <div class="card col-lg-4">
+                <div class="card col-lg-3 m-2">
                     <img src="https://lafactory.ma/wp-content/uploads/2020/05/Paramedical.jpeg" class="card-img-top" height="" width="400" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">PARAMÉDICAL</h4>
+                        <h5 class="card-title filier">PARAMÉDICAL</h5>
                     </div>
                 </div>
-                <div class="card col-lg-4">
+                <div class="card col-lg-3 m-2">
                     <img src="https://www.usnews.com/dims4/USNEWS/fb6e5fb/2147483647/crop/2000x1334%2B0%2B2/resize/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F65%2F62%2Fc9cb60d24ac89d56462b1228574a%2F201009-codingcomputer-stock.jpg" class="card-img-top" height="" width="400" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">DEVELOPPEMENT WEB</h4>
+                        <h5 class="card-title filier">DEVELOPPEMENT WEB</h5>
                     </div>
                 </div>
 
-                <div class="card col-lg-4">
+                <div class="card col-lg-3 m-2">
                     <img src="https://aujourdhui.ma/wp-content/uploads/2018/01/Energie-renouvelable-economie-verte.jpg" class="card-img-top" height="" width="400" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">L'ENERGIE RENOUVELABLE</h4>
+                        <h5 class="card-title filier">L'ENERGIE RENOUVELABLE</h5>
                     </div>
                 </div>
 
 
-                <div class="card col-lg-4">
+                <div class="card col-lg-3 m-2">
                     <img src="https://us.123rf.com/450wm/rido/rido2002/rido200200154/rido200200154.jpg" class="card-img-top" height="" width="400" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">DÉLÉGUÉ MÉDICAL</h4>
+                        <h5 class="card-title filier">DÉLÉGUÉ MÉDICAL</h5>
                     </div>
                 </div>
 
 
-                <div class="card col-lg-4">
+                <div class="card col-lg-3 m-2">
                     <img src="https://supplychaininfo.eu/wp-content/uploads/2022/06/quels-differents-types-logistique-1.jpg" class="card-img-top" height="" width="400" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">LOGISTIQUE</h4>
+                        <h5 class="card-title filier">LOGISTIQUE</h5>
                     </div>
                 </div>
 
 
-                <div class="card col-lg-4">
+                <div class="card col-lg-3 m-2">
                     <img src="https://img.freepik.com/photos-gratuite/homme-papiers_1098-15660.jpg?w=2000" class="card-img-top" height="" width="400" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">COMPTABILITÉ</h4>
+                        <h5 class="card-title filier">COMPTABILITÉ</h5>
                     </div>
                 </div>
 
 
-                <div class="card col-lg-4">
+                <div class="card col-lg-3 m-2">
                     <img src="https://supplychaininfo.eu/wp-content/uploads/2022/06/quels-differents-types-logistique-1.jpg" class="card-img-top" height="" width="400" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">LANGUES</h4>
+                        <h5 class="card-title filier">LANGUES</h5>
                     </div>
                 </div>
             </div>
