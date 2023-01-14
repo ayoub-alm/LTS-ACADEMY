@@ -18,8 +18,79 @@
     justify-content: center;
 }
 .card{
-    backdrop-filter: blur(8px); background-color: rgba(255, 255, 255, 0.4); border-radius: 20px; box-shadow: 0px 35px 68px 0px rgba(159, 226, 226, 0.5), inset 0px -1px 16px 0px rgba(159, 226, 226, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 25px;
+    border: 1px solid rgba( 255, 255, 255, 0.8 );
+    overflow: hidden;
     }
-.filier{
-    color: cornflowerblue;
+
+.card-img-overlay{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 1px 1px 15px black;
+    font-size: 1.3em;
+    height: 100%;
+}
+.card-img-overlay:hover {
+    box-shadow: 0 8px 32px 0 rgba(33, 33, 33, 0.51);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    font-size: 1.5em;
+    overflow: hidden;
+    margin:15px;
+}
+
+.RENOUVELABLE{
+    background:url("https://aujourdhui.ma/wp-content/uploads/2018/01/Energie-renouvelable-economie-verte.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.web{
+    background:url("https://www.usnews.com/dims4/USNEWS/fb6e5fb/2147483647/crop/2000x1334%2B0%2B2/resize/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F65%2F62%2Fc9cb60d24ac89d56462b1228574a%2F201009-codingcomputer-stock.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.para{
+    background:url("https://lafactory.ma/wp-content/uploads/2020/05/Paramedical.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.qhse{
+    background:url("https://institut-superieur-environnement.com/content/uploads/2022/03/metier-responsable-qse.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.DM{
+    background:url("https://us.123rf.com/450wm/rido/rido2002/rido200200154/rido200200154.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.logistique{
+    background:url("https://supplychaininfo.eu/wp-content/uploads/2022/06/quels-differents-types-logistique-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.comptabilite{
+    background:url("https://img.freepik.com/photos-gratuite/homme-papiers_1098-15660.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.langues{
+    background: url("https://www.ipac-traductions.com/wp-content/uploads/2021/05/langues-les-plus-parlees-1080x675-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
 }

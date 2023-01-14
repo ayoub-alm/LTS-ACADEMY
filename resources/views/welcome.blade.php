@@ -105,7 +105,7 @@
 
         body{
             font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-            /*background: rgba(77, 184, 196, 0.1);*/
+            background: rgba(77, 184, 196, 0.1);
         }
 
 
@@ -247,63 +247,61 @@
 
 {{--            ******************************************************************************************************--}}
 
-<div class="container ">
-            <div class=" row text-center d-flex justify-content-around">
-                <div class="card  col-lg-3 m-2">
-                    <img src="https://institut-superieur-environnement.com/content/uploads/2022/03/metier-responsable-qse.jpg" class="card-img-top" height="" width="400" alt="...">
+<div class="container">
+            <div class=" row text-center d-flex justify-content-center">
+                <div class="card  col-lg-3 m-2 qhse">
+
                     <div class="card-body">
-                        <h5 class="card-title filier">RESPONSABLE QHSE</h5>
+                        <h5 class="card-title card-img-overlay">RESPONSABLE QHSE</h5>
                     </div>
                 </div>
-                <div class="card col-lg-3 m-2">
-                    <img src="https://lafactory.ma/wp-content/uploads/2020/05/Paramedical.jpeg" class="card-img-top" height="" width="400" alt="...">
+                <div class="card col-lg-3 m-2 para">
                     <div class="card-body">
-                        <h5 class="card-title filier">PARAMÉDICAL</h5>
+                        <h5 class="card-title card-img-overlay">PARAMÉDICAL</h5>
                     </div>
                 </div>
-                <div class="card col-lg-3 m-2">
-                    <img src="https://www.usnews.com/dims4/USNEWS/fb6e5fb/2147483647/crop/2000x1334%2B0%2B2/resize/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F65%2F62%2Fc9cb60d24ac89d56462b1228574a%2F201009-codingcomputer-stock.jpg" class="card-img-top" height="" width="400" alt="...">
+                <div class="card col-lg-3 m-2 web ">
                     <div class="card-body">
-                        <h5 class="card-title filier">DEVELOPPEMENT WEB</h5>
+                        <h5 class="card-title card-img-overlay">DEVELOPPEMENT WEB</h5>
                     </div>
                 </div>
 
-                <div class="card col-lg-3 m-2">
-                    <img src="https://aujourdhui.ma/wp-content/uploads/2018/01/Energie-renouvelable-economie-verte.jpg" class="card-img-top" height="" width="400" alt="...">
+                <div class="card col-lg-3 m-2 RENOUVELABLE ">
                     <div class="card-body">
-                        <h5 class="card-title filier">L'ENERGIE RENOUVELABLE</h5>
+                        <h5 class="card-title card-img-overlay">L'ENERGIE RENOUVELABLE</h5>
                     </div>
                 </div>
 
 
-                <div class="card col-lg-3 m-2">
-                    <img src="https://us.123rf.com/450wm/rido/rido2002/rido200200154/rido200200154.jpg" class="card-img-top" height="" width="400" alt="...">
+                <div class="card col-lg-3 m-2 DM">
                     <div class="card-body">
-                        <h5 class="card-title filier">DÉLÉGUÉ MÉDICAL</h5>
+                        <h5 class="card-title card-img-overlay">DÉLÉGUÉ MÉDICAL</h5>
                     </div>
                 </div>
 
 
-                <div class="card col-lg-3 m-2">
-                    <img src="https://supplychaininfo.eu/wp-content/uploads/2022/06/quels-differents-types-logistique-1.jpg" class="card-img-top" height="" width="400" alt="...">
+                <div class="card col-lg-3 m-2 logistique">
                     <div class="card-body">
-                        <h5 class="card-title filier">LOGISTIQUE</h5>
+                        <h5 class="card-title card-img-overlay">LOGISTIQUE</h5>
                     </div>
                 </div>
 
 
-                <div class="card col-lg-3 m-2">
-                    <img src="https://img.freepik.com/photos-gratuite/homme-papiers_1098-15660.jpg?w=2000" class="card-img-top" height="" width="400" alt="...">
+            <div class="card col-lg-3 m-2 comptabilite">
                     <div class="card-body">
-                        <h5 class="card-title filier">COMPTABILITÉ</h5>
+                        <h5 class="card-title card-img-overlay">COMPTABILITÉ</h5>
                     </div>
                 </div>
 
 
-                <div class="card col-lg-3 m-2">
-                    <img src="https://supplychaininfo.eu/wp-content/uploads/2022/06/quels-differents-types-logistique-1.jpg" class="card-img-top" height="" width="400" alt="...">
+                <div class="card col-lg-3 m-2 langues">
                     <div class="card-body">
-                        <h5 class="card-title filier">LANGUES</h5>
+                        <h5 class="card-title card-img-overlay">LANGUES</h5>
+                    </div>
+                </div>
+                <div class="card col-lg-3 m-2 " style="background: lightskyblue;">
+                    <div class="card-body">
+                        <h5 class="card-title card-img-overlay">Autres</h5>
                     </div>
                 </div>
             </div>
