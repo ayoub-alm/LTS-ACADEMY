@@ -217,26 +217,26 @@
                 <span class="red-color"> Nos  Valeurs</span>
             </h5>
             <!-- Three columns of text below the carousel -->
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-3 m-2">
+            <div class="row d-flex justify-content-around">
+                <div class="col-lg-3 m-2 values-icon">
                     <p style="width:200px;height: 200px;text-align: center;margin: auto;overflow: hidden" class="row d-flex flex-column justify-content-center">
                         <img src="{{ asset('/images/homePage/icon1.png') }}" alt="icon1" class="img-fluid"  width="120" height="120"     >
                     </p>
-                    <h2 class="fw-normal gray-color">Foramtion de <br> Qualité</h2>
+                    <h4 class="fw-normal gray-color">Foramtion de <br> Qualité</h4>
 {{--                    <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>--}}
 
                 </div><!-- /.col-lg-3 m-2 -->
-                <div class="col-lg-3 m-2">
+                <div class="col-lg-3 m-2 values-icon">
                     <p style="width:200px;height: 200px;text-align: center;margin: auto;" class="row d-flex flex-column justify-content-center">
                         <img src="{{ asset('/images/homePage/icon2.png') }}" alt="icon1" class="img-fluid"  width="170" height="170"     >
                     </p>
-                    <h2 class="fw-normal gray-color">  Formateurs  <br> professionnels</h2>
+                    <h4 class="fw-normal gray-color">  Formateurs  <br> professionnels</h4>
                 </div><!-- /.col-lg-3 m-2 -->
-                <div class="col-lg-3 m-2 ">
+                <div class="col-lg-3 m-2 values-icon ">
                     <p style="width:200px;height: 200px;text-align: center;margin: auto;overflow: hidden" class="row d-flex flex-column justify-content-center">
                         <img src="{{ asset('/images/homePage/icon3.png') }}" alt="icon1" class="img-fluid"  width="170" height="170"     >
                     </p>
-                    <h2 class="fw-normal gray-color" > Accompagnement <br> individuel</h2>
+                    <h4 class="fw-normal gray-color" > Accompagnement <br> individuel</h4>
                 </div><!-- /.col-lg-3 m-2 -->
             </div><!-- /.row -->
         </div><!-- /.container -->

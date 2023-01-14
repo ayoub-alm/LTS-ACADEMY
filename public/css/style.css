@@ -19,7 +19,7 @@
 }
 .card{
     background: rgba( 255, 255, 255, 0.35 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 8px 32px 0 rgba(37, 37, 37, 0.5);
     backdrop-filter: blur( 13.5px );
     -webkit-backdrop-filter: blur( 13.5px );
     border-radius: 25px;
@@ -94,4 +94,25 @@
     background-size: cover;
     background-position: center;
     height: 250px;
+}
+.values-icon{
+    box-shadow: 0 8px 12px 0 rgba(33, 33, 33, 0.60);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 50px;
+    font-size: 1.8em;
+    overflow: hidden;
+    margin:10px;
+    background: rgba(255, 255, 255, 0.53);
+}
+
+.values-icon:hover {
+    box-shadow: 0 8px 12px 0 rgba(33, 33, 33, 0.60);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    font-size: 1.8em;
+    overflow: hidden;
+    margin:10px;
+    background: rgba(255, 255, 255);
 }
