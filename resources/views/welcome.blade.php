@@ -168,7 +168,7 @@
             </div>
         </header>
 
-        <div class="nav-scroller py-1 mb-5">
+        <div class="nav-scroller py-1 mb-2">
             <nav class="nav d-flex justify-content-between">
                 <a class="p-2 link-secondary" href="#">World</a>
                 <a class="p-2 link-secondary" href="#">U.S.</a>
@@ -187,7 +187,7 @@
     </div>
 
 
-    <div class="container mt-2" >
+    <div class="container-fluid"  style="background: white">
         <div class="row">
             <div class="col-lg-3 m-2 text-center ">
 
@@ -248,7 +248,7 @@
 {{--            ******************************************************************************************************--}}
 
 <div class="container">
-            <div class=" row text-center d-flex justify-content-center">
+            <div class=" row text-center d-flex justify-content-center mb-5">
                 <div class="card  col-lg-3 m-2 qhse">
 
                     <div class="card-body">
