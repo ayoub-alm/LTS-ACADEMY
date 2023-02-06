@@ -144,7 +144,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
         <header class="blog-header py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
                 <div class="col-4 pt-1">
@@ -211,7 +211,7 @@
         ================================================== -->
         <!-- Wrap the rest of the page in another container to center all the content. -->
 
-        <div class="container text-center">
+        <div class="container-fluid text-center">
 
             <h5 class="display-3    m-5">
                 <span class="red-color"> Nos  Valeurs</span>
@@ -247,7 +247,7 @@
 
 {{--            ******************************************************************************************************--}}
 
-<div class="container">
+<div class="container-fluid">
             <div class=" row text-center d-flex justify-content-center mb-5">
                 <div class="card  col-lg-3 m-2 qhse">
 
@@ -336,7 +336,53 @@
     </div>
 
 
+    {{--  ************************ FROM  ******************************************************--}}
 
+   <div class="container-fluid pt-5 pb-5 mt-5  " style="background: url('https://thumbs.dreamstime.com/b/vector-school-pattern-school-seamless-background-vector-school-pattern-school-seamless-background-vector-illustration-123145059.jpg');background-attachment: fixed;">
+       <div class="row">
+           <div class="col-lg-5 mt-3 mb-3" style="justify-content: center;display: flex; flex-direction: column;">
+            <h1 class="display-3 text-center" style="color: rgba(77,184,196);margin: auto;">
+                Contactez nous
+            </h1>
+           </div>
+
+           <div class="col-lg-7" style="background:rgba(77,184,196,0.52)">
+               <form class="row g-3 pt-5 pb-5">
+                   <div class="col-md-6">
+                       <label for="inputEmail4" class="form-label">Nom</label>
+                       <input type="text" class="form-control" id="inputEmail4">
+                   </div>
+                   <div class="col-md-6">
+                       <label for="inputPassword4" class="form-label">Prenom</label>
+                       <input type="text" class="form-control" id="inputPassword4">
+                   </div>
+                   <div class="col-md-6">
+                       <label for="inputEmail4" class="form-label">Email</label>
+                       <input type="email" class="form-control" id="inputEmail4">
+                   </div>
+                   <div class="col-md-6">
+                       <label for="inputPassword4" class="form-label">Telephone</label>
+                       <input type="phone" class="form-control" id="inputPassword4">
+                   </div>
+
+                   <div class="mb-3">
+                       <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                   </div>
+
+
+
+
+                   <div class="col-12">
+                       <button type="submit" class="btn btn-primary">Sign in</button>
+                   </div>
+               </form>
+           </div>
+
+       </div>
+
+   </div>
+    {{--  ************************ END FROM  ******************************************************--}}
 
     <!-- FOOTER -->
     <footer class="container py-5">
