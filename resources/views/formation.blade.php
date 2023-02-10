@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="container mt-2"  style="background: ;">
+    <div class="container-fluid mt-2"  style="background: ;">
         <div class="row">
             <h2 class="text-center mt-3 mb-3" style="color: #4db8c4;">
                 Qualité, Hygiène, Sécurité et Environnement
