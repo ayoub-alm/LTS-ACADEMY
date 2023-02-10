@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::prefix('/formations' )->group(function (){
+    Route::get('/qhse' , [\App\Http\Controllers\FormationController::class , 'qhse'] )->name('qhse');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
