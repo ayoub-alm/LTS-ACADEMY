@@ -15,7 +15,7 @@
             </div>
             <div class="col-lg-6 my-auto" style="overflow: hidden;">
                 <p>
-                    <img src="{{ asset('images/formations/paramedical.jpg') }}" class="img-fluid" height="500px" >
+                    <img src="{{ asset('images/formations/paramedical1.jpg') }}" class="img-fluid" height="500px" >
                 </p>
             </div>
             <hr class="m-4">
