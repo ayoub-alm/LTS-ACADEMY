@@ -8,6 +8,11 @@ class FormationController extends Controller
 {
     public function qhse()
     {
-        return view('formation');
+        return view('formations.qhse');
+    }
+
+    public function web()
+    {
+        return view('formations.web');
     }
 }

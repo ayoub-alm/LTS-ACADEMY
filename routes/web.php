@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +19,13 @@ Route::get('/', function () {
 });
 
 Route::prefix('/formations' )->group(function (){
-    Route::get('/qhse' , [\App\Http\Controllers\FormationController::class , 'qhse'] )->name('qhse');
+    Route::get('/qhse' ,
+        [FormationController::class , 'qhse']
+    )->name('qhse');
+
+    Route::get('/development_web' ,
+        [FormationController::class , 'web']
+    )->name('development_web');
 });
 
 Auth::routes();
