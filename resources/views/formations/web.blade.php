@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="container  mt-2"  >
+    <div class="container text-center mt-2"  >
         <div class="row">
             <h2 class="text-center mt-3 mb-3 display-3" style="color: #4db8c4;">
                 Developement Web
