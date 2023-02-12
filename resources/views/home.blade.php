@@ -70,7 +70,8 @@
         <div class="card  col-lg-3 m-2 qhse">
 
             <div class="card-body">
-                <h5 class="card-title card-img-overlay"><a href="{{ route('qhse') }}" style="color: white;" >
+                <h5 class="card-title card-img-overlay">
+                    <a href="{{ route('qhse') }}" style="color: white;" >
                         RESPONSABLE QHSE
                     </a>
                 </h5>
@@ -78,7 +79,11 @@
         </div>
         <div class="card col-lg-3 m-2 para">
             <div class="card-body">
-                <h5 class="card-title card-img-overlay">PARAMÉDICAL</h5>
+                <h5 class="card-title card-img-overlay">
+                    <a href="{{ route('paramedical') }}" style="color: white;" >
+                        PARAMÉDICAL
+                    </a>
+                </h5>
             </div>
         </div>
         <div class="card col-lg-3 m-2 web ">

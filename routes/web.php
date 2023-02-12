@@ -26,6 +26,11 @@ Route::prefix('/formations' )->group(function (){
     Route::get('/development_web' ,
         [FormationController::class , 'web']
     )->name('development_web');
+
+
+    Route::get('/paramedical' ,
+        [FormationController::class , 'paramedical']
+    )->name('paramedical');
 });
 
 Auth::routes();

@@ -15,4 +15,8 @@ class FormationController extends Controller
     {
         return view('formations.web');
     }
+    public function paramedical()
+    {
+        return view('formations.paramedical');
+    }
 }
