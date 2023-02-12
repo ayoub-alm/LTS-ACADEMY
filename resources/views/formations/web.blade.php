@@ -15,7 +15,7 @@
             </div>
             <div class="col-lg-6 my-auto" style="overflow: hidden;">
                 <p>
-                    <img src="{{ asset('images/formations/web.jpg') }}" class="" height="500px">
+                    <img src="{{ asset('images/formations/web.jpg') }}" class="img-fluid" height="500px" >
                 </p>
             </div>
             <hr class="m-4">
@@ -27,7 +27,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 text-center"  style="overflow: hidden;">
-                    <img src="{{ asset('images/formations/web2.jpg') }}" height="500px" >
+                    <img src="{{ asset('images/formations/web2.jpg') }}" class="img-fluid" height="500px" >
                 </div>
 {{--            </div>--}}
         </div>
