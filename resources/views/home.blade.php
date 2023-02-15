@@ -10,12 +10,12 @@
         <div class="col-lg-4  text-center ">
 
             <img src="{{ asset('/images/logo.jpg') }}" width="200px">
-            <h2 >
-                Votre avenir commence
-                <span> <br> ici <br> </span>
+            <h3 style="line-height: 1.2em;color:#7a7a7a;" class="display-6">
+                " La formation qui <br> convient le mieux <br>à vos besoin  "
+                <br><br>
 
-            </h2>
-            <h6>Apprenez à apprendre, découvrez les compétences de demain, et prenez votre carrière en main.</h6>
+            </h3>
+{{--            <h6>Apprenez à apprendre, découvrez les compétences de demain, et prenez votre carrière en main.</h6>--}}
         </div>
         <p class="col-lg-8" >
             <img src="{{ asset('/images/homePage/lts header.png') }}"   class="img-fluid">
@@ -29,7 +29,7 @@
 ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
-<div class="container-fluid text-center p-lg-5 " style="background:linear-gradient(white,rgba(77, 184, 196, 0.1)) ;">
+<div class="container-fluid text-center p-lg-5 " style="background:linear-gradient(white,rgba(77, 184, 196, 0.01)  ) ;">
 
     <h5 class="display-3 mb-4">
         <span class="red-color"> Nos  Valeurs</span>

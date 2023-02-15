@@ -131,3 +131,13 @@
     padding: 10px;
     /*border: #1a202c solid 2px ;*/
 }
+
+.nav-shadow{
+    box-shadow: 0 8px 12px 0 rgba(33, 33, 33, 0.3);
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 19.5px );
+    /*border-radius: 10px;*/
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.6);
+
+}
