@@ -6,8 +6,8 @@
 
 
 <div class="container-fluid"  style="background: white">
-    <div class="row">
-        <div class="col-lg-3 m-2 text-center ">
+    <div class="row p-lg-5">
+        <div class="col-lg-4  text-center ">
 
             <img src="{{ asset('/images/logo.jpg') }}" width="200px">
             <h2 >
@@ -29,9 +29,9 @@
 ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
-<div class="container-fluid text-center">
+<div class="container-fluid text-center p-lg-5 " style="background:linear-gradient(white,rgba(77, 184, 196, 0.1)) ;">
 
-    <h5 class="display-3    m-5">
+    <h5 class="display-3 mb-4">
         <span class="red-color"> Nos  Valeurs</span>
     </h5>
     <!-- Three columns of text below the carousel -->
@@ -58,16 +58,17 @@
         </div><!-- /.col-lg-3 m-2 -->
     </div><!-- /.row -->
 </div><!-- /.container -->
-<h2 class="display-3 m-5 text-center">
-    <span class="blue-color"> Nos Formations </span>
-</h2>
 
 
 {{--            ******************************************************************************************************--}}
 
 <div class="container-fluid">
+    <h2 class="display-3 m-5 text-center col-lg-12">
+        <span class="blue-color"> Nos Formations </span>
+    </h2>
     <div class=" row text-center d-flex justify-content-center mb-5">
         <div class="card  col-lg-3 m-2 qhse">
+
 
             <div class="card-body">
                 <h5 class="card-title card-img-overlay">
@@ -144,7 +145,7 @@
 
 
 
-<div class="text-center container" >
+<div class="text-center container-fluid " style="background: rgba(254,186,18,0.3);" >
     <div class="row featurette">
         <div class="col-md-6">
             <img src="{{ asset('/images/homePage/section-img.png') }} " class="img-fluid" height="250px">
@@ -168,7 +169,7 @@
 
 {{--  ************************ FROM  ******************************************************--}}
 
-<div class="container-fluid pt-5 pb-5 mt-5  " style="background: url('https://thumbs.dreamstime.com/b/vector-school-pattern-school-seamless-background-vector-school-pattern-school-seamless-background-vector-illustration-123145059.jpg');background-attachment: fixed;">
+<div class="container-fluid pt-5 pb-5   " style="background: url('https://thumbs.dreamstime.com/b/vector-school-pattern-school-seamless-background-vector-school-pattern-school-seamless-background-vector-illustration-123145059.jpg');background-attachment: fixed;">
     <div class="row">
         <div class="col-lg-5 mt-3 mb-3" style="justify-content: center;display: flex; flex-direction: column;">
             <h1 class="display-3 text-center" style="color: rgba(77,184,196);margin: auto;">
@@ -213,5 +214,15 @@
 
 </div>
 {{--  ************************ END FROM  ******************************************************--}}
-
+<div class="container">
+    <div class="row featurette mt-5">
+        <div class="col-md-6 order-md-1">
+            <img src=" {{ asset('/images/homePage/section-img2.png') }}" class="img-fluid" height="250px">
+        </div>
+        <div class="col-md-6 text-with-img">
+            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        </div>
+    </div>
+</div>
 @endsection
