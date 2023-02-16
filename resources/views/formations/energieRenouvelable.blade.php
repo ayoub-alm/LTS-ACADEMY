@@ -5,34 +5,30 @@
     <div class="container-fluid  mt-2"  >
         <div class="row">
             <h2 class="text-center mt-3 mb-3 display-3" style="color: #4db8c4;">
-                PARAMÉDICAL
+                L'ENERGIE RENOUVELABLE
             </h2>
-
+            <hr>
             <div class="col-lg-6 my-auto">
-                <p class="p-2 lead p-lg-5" style="line-height: 1.8em;">
-                    La formation paramédicale de LTS ACADEMY est une formation de 4 mois conçue pour les personnes qui cherchent à poursuivre une carrière dans le domaine de la santé. Elle fournit une base solide de compétences et de connaissances de base nécessaires pour travailler en tant qu'assistant médical, technicien de laboratoire ou autre professionnel de la santé.
+                <p class=" lead p-lg-5" style="line-height: 1.8em;">La formation sur l'énergie renouvelable offerte par LTS Academy est une opportunité unique pour acquérir des compétences techniques et pratiques de pointe en matière d'énergie propre et de développement durable. D'une durée de 4 mois, cette formation est conçue pour répondre aux besoins des professionnels et des étudiants souhaitant travailler dans le secteur de l'énergie renouvelable. Les participants y apprendront les technologies les plus récentes pour produire de l'énergie à partir de sources renouvelables telles que l'énergie solaire, éolienne, hydroélectrique et géothermique. La formation couvre également les aspects clés de la gestion de projets, la planification stratégique, la réglementation et les politiques publiques liées à l'énergie renouvelable.
                 </p>
             </div>
             <div class="col-lg-6 my-auto" style="overflow: hidden;">
                 <p>
-                    <img src="{{ asset('images/formations/paramedical1.jpg') }}" class="img-fluid" height="500px" >
+                    <img src="{{ asset('images/formations/er1.jpg') }}" class="img-fluid" height="500px" >
                 </p>
             </div>
-
-
 {{--            <div class="row featurette text-center">--}}
                 <div class="col-md-6 order-md-2 my-auto">
-                    <p class="lead  p-lg-5" style="line-height: 1.8em;">
-                        Cette formation comprend des cours théoriques et pratiques, des stages en milieu de travail pour une expérience pratique, ainsi que des instructions par des professionnels de la santé expérimentés. À la fin de cette formation, les étudiants seront prêts à commencer leur carrière dans le domaine de la santé en tant que professionnels qualifiés et compétents.
+                    <p class="lead p-lg-5" style="line-height: 1.8em;">
+                        Les cours sont dispensés par des experts du secteur, qui possèdent une grande expérience professionnelle dans le domaine de l'énergie renouvelable. Les participants bénéficieront d'une formation pratique sur les dernières technologies et auront accès à des outils et des ressources pour leur permettre de mettre en pratique ce qu'ils auront appris. À la fin de la formation, les participants seront en mesure de concevoir, planifier, et exécuter des projets liés à l'énergie renouvelable avec compétence et confiance. Cette formation de LTS Academy est une occasion unique pour ceux qui cherchent à développer leurs compétences professionnelles dans le secteur de l'énergie renouvelable.
                     </p>
                 </div>
                 <div class="col-md-6 text-center"  style="overflow: hidden;">
-                    <img src="{{ asset('images/formations/paramedical2.jpg') }}" class="img-fluid" height="500px" >
+                    <img src="{{ asset('images/formations/er2.png') }}" class="img-fluid" height="500px" >
                 </div>
 {{--            </div>--}}
         </div>
     </div>
-    <hr>
     <div class="container-fluid mt-5 " >
         <div class="row  register-from "  style="background: url('https://thumbs.dreamstime.com/b/vector-school-pattern-school-seamless-background-vector-school-pattern-school-seamless-background-vector-illustration-123145059.jpg');background-attachment: fixed;">
             <div class="col-lg-4 my-auto" >

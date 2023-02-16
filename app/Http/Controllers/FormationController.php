@@ -19,4 +19,12 @@ class FormationController extends Controller
     {
         return view('formations.paramedical');
     }
+
+    public function energieRenouvelable()
+    {
+        return view('formations.energieRenouvelable');
+    }
+
+
+
 }

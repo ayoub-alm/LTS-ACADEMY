@@ -31,6 +31,15 @@ Route::prefix('/formations' )->group(function (){
     Route::get('/paramedical' ,
         [FormationController::class , 'paramedical']
     )->name('paramedical');
+
+
+    Route::get('/energieRenouvelable' ,
+        [FormationController::class , 'energieRenouvelable']
+    )->name('energieRenouvelable');
+
+
+
+
 });
 
 Auth::routes();

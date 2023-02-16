@@ -11,7 +11,7 @@
 
             <img src="{{ asset('/images/logo.jpg') }}" width="200px">
             <h3 style="line-height: 1.2em;color:#7a7a7a;" class="display-6">
-                " La formation qui <br> convient le mieux <br>à vos besoin  "
+                " La formation qui <br> convient le mieux <br>à vos besoins "
                 <br><br>
 
             </h3>
@@ -99,7 +99,10 @@
 
         <div class="card col-lg-3 m-2 RENOUVELABLE ">
             <div class="card-body">
-                <h5 class="card-title card-img-overlay">L'ENERGIE RENOUVELABLE</h5>
+                <h5 class="card-title card-img-overlay">
+                    <a href="{{ route('energieRenouvelable') }}" style="color: white;" >
+                        L'ENERGIE RENOUVELABLE
+                    </a></h5>
             </div>
         </div>
 

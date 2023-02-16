@@ -2,14 +2,14 @@
 
 @section('content')
 
-    <div class="container text-center mt-2"  >
+    <div class="container-fliud  mt-2"  >
         <div class="row">
             <h2 class="text-center mt-3 mb-3 display-3" style="color: #4db8c4;">
                 Developement Web
             </h2>
             <hr>
             <div class="col-lg-6 my-auto">
-                <p class="p-2 lead" style="line-height: 1.8em;">
+                <p class="p-2 lead p-lg-5" style="line-height: 1.8em;">
                     La formation de développement web de LTS ACADEMY dure 4 mois et comprend les modules HTML, CSS, JavaScript, PHP et MySQL. Cette formation complète permet aux débutants d'acquérir les compétences de base nécessaires pour construire des pages web, des applications web dynamiques et gérer les bases de données. Elle est dispensée par des professionnels expérimentés et accessible à tous, quel que soit votre niveau de compétence en programmation. En sortant de cette formation, vous aurez les compétences nécessaires pour démarrer votre carrière de développeur web compétent.
                 </p>
             </div>
@@ -18,11 +18,11 @@
                     <img src="{{ asset('images/formations/web.jpg') }}" class="img-fluid" height="500px" >
                 </p>
             </div>
-            <hr class="m-4">
+
 
 {{--            <div class="row featurette text-center">--}}
                 <div class="col-md-6 order-md-2 my-auto">
-                    <p class="lead" style="line-height: 1.8em;">
+                    <p class="lead p-lg-5" style="line-height: 1.8em;">
                         La formation est dispensée par des professionnels expérimentés dans le domaine et est conçue pour être accessible aux débutants, même si vous n'avez aucune expérience préalable en programmation. À la fin de la formation, vous aurez une compréhension approfondie des principes du développement web et des compétences pratiques pour construire des applications web avancées. Rejoignez la formation maintenant et commencez votre parcours pour devenir un développeur web qualifié.
                     </p>
                 </div>
@@ -32,7 +32,7 @@
 {{--            </div>--}}
         </div>
     </div>
-    <hr>
+
     <div class="container-fluid mt-5 " >
         <div class="row  register-from "  style="background: url('https://thumbs.dreamstime.com/b/vector-school-pattern-school-seamless-background-vector-school-pattern-school-seamless-background-vector-illustration-123145059.jpg');background-attachment: fixed;">
             <div class="col-lg-4 my-auto" >
