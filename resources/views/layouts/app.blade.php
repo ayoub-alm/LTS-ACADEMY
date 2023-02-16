@@ -221,32 +221,16 @@
                 </div>
             </div>
         </nav>
-
-{{--        <div class="container-fluid">--}}
-{{--            <div class="nav-scroller py-1 mb-2">--}}
-{{--                <nav class="nav d-flex justify-content-between">--}}
-{{--                    <a class="p-2 link-secondary" href="#">World</a>--}}
-{{--                    <a class="p-2 link-secondary" href="#">U.S.</a>--}}
-{{--                    <a class="p-2 link-secondary" href="#">Technology</a>--}}
-{{--                    <a class="p-2 link-secondary" href="#">Design</a>--}}
-{{--                    <a class="p-2 link-secondary" href="#">Culture</a>--}}
-{{--                    <a class="p-2 link-secondary" href="#">Business</a>--}}
-{{--                    <a class="p-2 link-secondary" href="#">Politics</a>--}}
-{{--                    <a class="p-2 link-secondary" href="#">Opinion</a>--}}
-{{--                    <a class="p-2 link-secondary" href="#">Science</a>--}}
-{{--                    <a class="p-2 link-secondary" href="#">Health</a>--}}
-{{--                    <a class="p-2 link-secondary" href="#">Style</a>--}}
-{{--                    <a class="p-2 link-secondary" href="#">Travel</a>--}}
-{{--                </nav>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-
         <main class="">
             @yield('content')
         </main>
     </div>
 
-
+    <div style="height:60px;width: 60px;color:red;z-index: 15000000;position: sticky;bottom: 150px;left:95%;top:25%;">
+        <a href="https://wa.link/jkyiwb" >
+            <img src="{{ asset('images/wtsp.svg') }}" width="60" height="60">
+        </a>
+    </div>
     <!-- FOOTER -->
     <footer class="container-fluid py-5 nav-shadow" style="">
         <div class="row">
@@ -294,6 +278,8 @@
             </div>
         </div>
     </footer>
+
+
 
 </body>
 </html>
