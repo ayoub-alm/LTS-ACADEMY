@@ -226,7 +226,7 @@
         </main>
     </div>
 
-    <div style="height:60px;width: 60px;color:red;z-index: 15000000;position: sticky;bottom: 150px;left:95%;top:25%;">
+    <div style="height:60px;width: 60px;color:red;z-index: 15000000;position: sticky;bottom: 150px;left:92%;top:25%;">
         <a href="https://wa.link/jkyiwb" >
             <img src="{{ asset('images/wtsp.svg') }}" width="60" height="60">
         </a>

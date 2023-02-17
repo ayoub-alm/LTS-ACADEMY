@@ -148,14 +148,14 @@
 
 
 
-<div class="text-center container-fluid " style="background: rgba(254,186,18,0.3);" >
+<div class=" container-fluid " style="background: rgba(254,186,18,0.3);" >
     <div class="row featurette">
         <div class="col-md-6">
             <img src="{{ asset('/images/homePage/section-img.png') }} " class="img-fluid" height="250px">
         </div>
         <div class="col-md-6 text-with-img">
-            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+            <h2 class="featurette-heading lh-2 p-4 bolder">Notre offre  <span class="text-muted">de formations </span></h2>
+            <p class="lead p-5">est variée et s’adresse à un large public : immigrants, travailleurs, étudiants ou professeurs universitaires, stagiaires postdoctoraux, candidats aux ordres professionnels, professeurs de langue…</p>
         </div>
     </div>
     <div class="row featurette mt-5">
