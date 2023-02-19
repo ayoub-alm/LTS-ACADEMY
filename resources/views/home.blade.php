@@ -3,15 +3,13 @@
 @section('content')
 
 
-
-
 <div class="container-fluid"  style="background: white">
     <div class="row p-lg-5">
         <div class="col-lg-4  text-center ">
 
             <img src="{{ asset('/images/logo.jpg') }}" width="200px">
-            <h3 style="line-height: 1.2em;color:#7a7a7a;" class="display-6">
-                " La formation qui <br> convient le mieux <br>à vos besoins "
+            <h3 style="line-height: 1.2em;color:#7a7a7a;" class="display-6 fw-bolder">
+                 La formation qui <br> convient le mieux <br>à vos besoins
                 <br><br>
 
             </h3>
@@ -31,8 +29,8 @@
 
 <div class="container-fluid text-center p-lg-5 " style="background:linear-gradient(white,rgba(77, 184, 196, 0.01)  ) ;">
 
-    <h5 class="display-3 mb-4">
-        <span class="red-color"> Nos  Valeurs</span>
+    <h5 class="display-3 mb-4  fw-bolder">
+        <span class="red-color"> Nos Valeurs</span>
     </h5>
     <!-- Three columns of text below the carousel -->
     <div class="row d-flex justify-content-around">
@@ -63,7 +61,7 @@
 {{--            ******************************************************************************************************--}}
 
 <div class="container-fluid">
-    <h2 class="display-3 m-5 text-center col-lg-12">
+    <h2 class="display-3 m-5 text-center col-lg-12  fw-bolder">
         <span class="blue-color"> Nos Formations </span>
     </h2>
     <div class=" row text-center d-flex justify-content-center mb-5">
@@ -144,9 +142,6 @@
 
 
 </div>
-
-
-
 
 <div class=" container-fluid " style="background: rgba(254,186,18,0.3);" >
     <div class="row featurette">

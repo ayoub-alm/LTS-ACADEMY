@@ -54,7 +54,7 @@
         }
 
         .blog-header-logo {
-            font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+            font-family: 'Nunito', sans-serif;
             font-size: 1.5rem;
             text-align: center;
         }
@@ -69,7 +69,7 @@
         h4,
         h5,
         h6 {
-            font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+            font-family: 'Nunito', sans-serif;
         }
 
 
@@ -105,7 +105,7 @@
         }
 
         body{
-            font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+            font-family: 'Nunito', sans-serif;
             background: rgba(77, 184, 196, 0.1);
         }
 
@@ -162,7 +162,7 @@
                             <a class="nav-link active" aria-current="page" href="/">ACCUEIL</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">QUI SOMMES NOUS</a>
+                            <a class="nav-link active" href="{{ route("about_us") }}">QUI SOMMES NOUS</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
