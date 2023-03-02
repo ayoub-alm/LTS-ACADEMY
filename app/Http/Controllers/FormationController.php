@@ -29,6 +29,10 @@ class FormationController extends Controller
     }
 
 
+    public  function logistique(){
+        return view('formations.logistique');
+    }
+
 
 
 

@@ -164,17 +164,27 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="{{ route("about_us") }}">QUI SOMMES NOUS</a>
                         </li>
+                        <a href="#formationSection">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle active" href="#formationSection" id="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 NOS FORMATIONS
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="{{ route('qhse') }}">RESPONSABLE QHSE</a></li>
+                                <li><a class="dropdown-item" href="{{ route('paramedical') }}">PARAMÉDICAL</a></li>
+                                <li><a class="dropdown-item" href="{{ route('development_web') }}">DEVELOPPEMENT WEB</a></li>
+                                <li><a class="dropdown-item" href="{{ route('energieRenouvelable') }}">L'ENERGIE RENOUVELABLE</a></li>
+                                <li><a class="dropdown-item" href="{{ route('delegue_medical') }}">DÉLÉGUÉ MÉDICAL</a></li>
+                                <li><a class="dropdown-item" href="{{ route('logistique') }}">LOGISTIQUE</a></li>
+                                <li><a class="dropdown-item" href="#">COMPTABILITÉ</a></li>
+                                <li><a class="dropdown-item" href="#">LANGUES</a></li>
+                                <li><a class="dropdown-item" href="#">LOGICIELS</a></li>
+{{--                                <li><a class="dropdown-item" href="#">LOGICIELS</a></li>--}}
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+{{--                                <li><a class="dropdown-item" href="#">Something else here</a></li>--}}
                             </ul>
                         </li>
+                        </a>
 {{--                        <li class="nav-item">--}}
 {{--                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>--}}
 {{--                        </li>--}}

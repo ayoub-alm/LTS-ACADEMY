@@ -46,6 +46,10 @@ Route::prefix('/formations' )->group(function (){
     Route::get('/delegue_medical' ,
         [FormationController::class , 'delegue_medical']
     )->name('delegue_medical');
+
+    Route::get('/logistique' ,
+        [FormationController::class , 'logistique']
+    )->name('logistique');
 });
 
 Auth::routes();

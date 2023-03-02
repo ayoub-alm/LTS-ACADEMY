@@ -61,7 +61,7 @@
 {{--            ******************************************************************************************************--}}
 
 <div class="container-fluid">
-    <h2 class="display-3 m-5 text-center col-lg-12  fw-bolder">
+    <h2 class="display-3 m-5 text-center col-lg-12  fw-bolder" id="formationSection">
         <span class="blue-color"> Nos Formations </span>
     </h2>
     <div class=" row text-center d-flex justify-content-center mb-5">
@@ -100,14 +100,19 @@
                 <h5 class="card-title card-img-overlay">
                     <a href="{{ route('energieRenouvelable') }}" style="color: white;" >
                         L'ENERGIE RENOUVELABLE
-                    </a></h5>
+                    </a>
+                </h5>
             </div>
         </div>
 
 
         <div class="card col-lg-3 m-2 DM">
             <div class="card-body">
-                <h5 class="card-title card-img-overlay">DÉLÉGUÉ MÉDICAL</h5>
+                <h5 class="card-title card-img-overlay">
+                        <a href="{{ route('delegue_medical') }}" style="color: white;" >
+                        DÉLÉGUÉ MÉDICAL
+                    </a>
+                </h5>
             </div>
         </div>
 

@@ -10,14 +10,14 @@
             <hr>
             <div class="col-lg-6 my-auto">
                 <p class="p-2 lead p-lg-5" style="line-height: 1.8em;">
-                    La formation de Délégué Médical est une occasion unique pour les personnes souhaitant se lancer dans le secteur pharmaceutique. LTS Academy offre une formation complète de 4 mois pour devenir un délégué médical compétent et professionnel.
+                    La formation en logistique proposée par LTS Academy est un programme complet conçu pour préparer les participants à exceller dans leur carrière professionnelle dans ce domaine passionnant. Pendant les 4 mois de formation, les participants seront initiés aux différents aspects de la logistique, y compris la gestion de la chaîne d'approvisionnement, la planification des opérations logistiques, le transport, le stockage et la distribution.
+                    <br>La formation sera animée par des experts du secteur de la logistique, qui partageront leur expérience et leurs connaissances pour aider les participants à acquérir les compétences et les connaissances nécessaires pour relever les défis de la logistique moderne. Les participants auront également la possibilité de mettre en pratique ce qu'ils ont appris grâce à des exercices pratiques et des études de cas.
 
-                    Pendant cette formation, vous apprendrez les compétences clés pour réussir dans ce domaine. Vous découvrirez les notions de base de la pharmacologie, de l'anatomie et de la physiologie, ainsi que la connaissance des produits pharmaceutiques. Vous acquerrez également des compétences en communication, en négociation et en marketing, afin de bien présenter les produits aux professionnels de la santé.
                 </p>
             </div>
             <div class="col-lg-6 my-auto" style="overflow: hidden;">
                 <p>
-                    <img src="{{ asset('images/formations/delegue_medical.jpg') }}" class="img-fluid" height="500px" >
+                    <img src="{{ asset('https://www.supplychaininfo.eu/wp-content/uploads/2022/06/quels-differents-types-logistique-1.jpg') }}" class="img-fluid" height="500px" >
                 </p>
             </div>
 
@@ -25,9 +25,8 @@
 {{--            <div class="row featurette text-center">--}}
                 <div class="col-md-6 order-md-2 my-auto">
                     <p class="lead p-lg-5" style="line-height: 1.8em;">
-                        La formation de Délégué Médical organisée par LTS Academy est encadrée par des professionnels expérimentés du secteur pharmaceutique. Ils vous guideront tout au long de votre parcours et vous fourniront des conseils pratiques pour réussir dans ce domaine. Vous bénéficierez également d'un accompagnement personnalisé pour vous aider à trouver un emploi après la formation.
-
-                        Rejoignez la formation de Délégué Médical organisée par LTS Academy et donnez un nouvel élan à votre carrière dans le secteur pharmaceutique.
+                        LTS Academy est un centre de formation renommé, offrant une formation de qualité supérieure dans différents domaines professionnels. Les participants de la formation en logistique peuvent donc être assurés de recevoir une éducation de qualité, qui les préparera à une carrière réussie dans ce domaine en pleine expansion.
+                        Regenerate response
                     </p>
                 </div>
                 <div class="col-md-6 text-center p-lg-5"  style="overflow: hidden;">
