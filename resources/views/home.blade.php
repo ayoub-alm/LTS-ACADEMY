@@ -119,7 +119,11 @@
 
         <div class="card col-lg-3 m-2 logistique">
             <div class="card-body">
-                <h5 class="card-title card-img-overlay">LOGISTIQUE</h5>
+                <h5 class="card-title card-img-overlay">
+                    <a href="{{ route('logistique') }}" style="color: white;" >
+                        LOGISTIQUE
+                    </a>
+                </h5>
             </div>
         </div>
 
