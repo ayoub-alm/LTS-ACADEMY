@@ -43,9 +43,9 @@ Route::prefix('/formations' )->group(function (){
         [FormationController::class , 'energieRenouvelable']
     )->name('energieRenouvelable');
 
-
-
-
+    Route::get('/delegue_medical' ,
+        [FormationController::class , 'delegue_medical']
+    )->name('delegue_medical');
 });
 
 Auth::routes();

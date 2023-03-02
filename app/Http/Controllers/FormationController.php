@@ -24,6 +24,11 @@ class FormationController extends Controller
     {
         return view('formations.energieRenouvelable');
     }
+    public function delegue_medical(){
+        return view("formations.delegue_medical");
+    }
+
+
 
 
 
