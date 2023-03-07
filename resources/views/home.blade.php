@@ -130,14 +130,22 @@
 
         <div class="card col-lg-3 m-2 comptabilite">
             <div class="card-body">
-                <h5 class="card-title card-img-overlay">COMPTABILITÉ</h5>
+                <h5 class="card-title card-img-overlay">
+                    <a href="{{ route('comptabilite') }}" style="color: white;" >
+                        COMPTABILITÉ
+                    </a>
+                </h5>
             </div>
         </div>
 
 
         <div class="card col-lg-3 m-2 langues">
             <div class="card-body">
-                <h5 class="card-title card-img-overlay">LANGUES</h5>
+                <h5 class="card-title card-img-overlay">
+                    <a href="{{ route('langues') }}" style="color: white;" >
+                        LANGUES
+                    </a>
+                </h5>
             </div>
         </div>
         <div class="card col-lg-3 m-2 " style="background: lightskyblue;">

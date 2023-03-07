@@ -176,8 +176,8 @@
                                 <li><a class="dropdown-item" href="{{ route('energieRenouvelable') }}">L'ENERGIE RENOUVELABLE</a></li>
                                 <li><a class="dropdown-item" href="{{ route('delegue_medical') }}">DÉLÉGUÉ MÉDICAL</a></li>
                                 <li><a class="dropdown-item" href="{{ route('logistique') }}">LOGISTIQUE</a></li>
-                                <li><a class="dropdown-item" href="#">COMPTABILITÉ</a></li>
-                                <li><a class="dropdown-item" href="#">LANGUES</a></li>
+                                <li><a class="dropdown-item" href="{{ route("comptabilite") }}">COMPTABILITÉ</a></li>
+                                <li><a class="dropdown-item" href="{{ route("langues") }}">LANGUES</a></li>
                                 <li><a class="dropdown-item" href="#">LOGICIELS</a></li>
 {{--                                <li><a class="dropdown-item" href="#">LOGICIELS</a></li>--}}
                                 <li><hr class="dropdown-divider"></li>

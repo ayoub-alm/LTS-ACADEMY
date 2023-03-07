@@ -50,6 +50,14 @@ Route::prefix('/formations' )->group(function (){
     Route::get('/logistique' ,
         [FormationController::class , 'logistique']
     )->name('logistique');
+
+    Route::get('/comptabilite' ,
+        [FormationController::class , 'comptabilite']
+    )->name('comptabilite');
+
+    Route::get('/langues' ,
+        [FormationController::class , 'langues']
+    )->name('langues');
 });
 
 Auth::routes();

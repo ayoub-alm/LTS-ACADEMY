@@ -34,6 +34,14 @@ class FormationController extends Controller
     }
 
 
+    public function comptabilite(){
+        return view("formations.comptabilite");
+    }
+
+    public function langues(){
+        return view('formations.langues');
+    }
+
 
 
 }
