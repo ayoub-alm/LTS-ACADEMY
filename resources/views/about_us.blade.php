@@ -20,7 +20,7 @@
 
             <div class="col-lg-6 d-flex justify-content-center" style="
                 background-size:100px 100px ;background-attachment: fixed; " id="" >
-                <img src="https://www.lecoindesentrepreneurs.fr/wp-content/uploads/2020/01/cr%C3%A9er-une-soci%C3%A9t%C3%A9-de-formation.png" class="img-fluid">
+                <img src="https://img.freepik.com/vecteurs-libre/coach-parlant-devant-public-mentor-presentant-graphiques-rapports-reunion-employes-lors-formation-commerciale-seminaire-conference-illustration-vectorielle-pour-presentation-conference-education_74855-8294.jpg" class="img-fluid">
             </div>
         </div>
     </div>
@@ -70,7 +70,7 @@
                     <p class="lead p-lg-5 my-auto lh-lg">LTS Academy est un centre de formation et de langues de renom, offrant une expérience d'apprentissage exceptionnelle à ses étudiants. Avec une équipe d'enseignants hautement qualifiés et expérimentés, LTS Academy offre des programmes de formation de haute qualité dans une variété de domaines.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="https://scontent.fcmn3-2.fna.fbcdn.net/v/t39.30808-6/323425632_1192517514700165_3846389504008297383_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGH_HO9GV--Rtnwv0SVM1gs9btRNMmLUsj1u1E0yYtSyPagLDTlTP-UE_KzhlsbGxw9jXv6yoUo7zkPykyqK4Im&_nc_ohc=M1Jv-TrhkXUAX_hVKMc&_nc_oc=AQnBr3QJ5njWg3bsXy4w3YmENyzi3wJ39LjZqVe-KM2615v1XSu8TiVffF4cHBH_kOM&_nc_ht=scontent.fcmn3-2.fna&oh=00_AfDF3Nk7mRwoUdM-14VJTBgk7YytzVN2mqxxUxqpRys6MA&oe=63F7BD1E" width="500" height="500" class="img-fluid">
+                    <img src="https://scontent.fcmn3-2.fna.fbcdn.net/v/t39.30808-6/323425632_1192517514700165_3846389504008297383_n.jpg" width="500" height="500" class="img-fluid">
 
                 </div>
             </div>
