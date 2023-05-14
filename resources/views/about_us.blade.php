@@ -20,7 +20,7 @@
 
             <div class="col-lg-6 d-flex justify-content-center" style="
                 background-size:100px 100px ;background-attachment: fixed; " id="" >
-                <img src="https://img.freepik.com/vecteurs-libre/coach-parlant-devant-public-mentor-presentant-graphiques-rapports-reunion-employes-lors-formation-commerciale-seminaire-conference-illustration-vectorielle-pour-presentation-conference-education_74855-8294.jpg" class="img-fluid">
+                <img src="https://www.lecoindesentrepreneurs.fr/wp-content/uploads/2020/01/cr%C3%A9er-une-soci%C3%A9t%C3%A9-de-formation.png" class="img-fluid">
             </div>
         </div>
     </div>
