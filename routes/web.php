@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,51 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+
+
+Route::get('/about_us', function () {
+    return view('about_us');
+})->name("about_us");
+
+Route::prefix('/formations' )->group(function (){
+    Route::get('/qhse' ,
+        [FormationController::class , 'qhse']
+    )->name('qhse');
+
+    Route::get('/development_web' ,
+        [FormationController::class , 'web']
+    )->name('development_web');
+
+
+    Route::get('/paramedical' ,
+        [FormationController::class , 'paramedical']
+    )->name('paramedical');
+
+
+    Route::get('/energieRenouvelable' ,
+        [FormationController::class , 'energieRenouvelable']
+    )->name('energieRenouvelable');
+
+    Route::get('/delegue_medical' ,
+        [FormationController::class , 'delegue_medical']
+    )->name('delegue_medical');
+
+    Route::get('/logistique' ,
+        [FormationController::class , 'logistique']
+    )->name('logistique');
+
+    Route::get('/comptabilite' ,
+        [FormationController::class , 'comptabilite']
+    )->name('comptabilite');
+
+    Route::get('/langues' ,
+        [FormationController::class , 'langues']
+    )->name('langues');
+});
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -22,7 +22,7 @@
     box-shadow: 0 8px 32px 0 rgba(37, 37, 37, 0.5);
     backdrop-filter: blur( 13.5px );
     -webkit-backdrop-filter: blur( 13.5px );
-    border-radius: 25px;
+    /*border-radius: 25px;*/
     border: 1px solid rgba( 255, 255, 255, 0.8 );
     overflow: hidden;
     }
@@ -115,4 +115,29 @@
     overflow: hidden;
     margin:10px;
     background: rgba(255, 255, 255);
+    transform: translate(20px, -20%);
+    background: white;
+}
+
+
+.register-from{
+    box-shadow: 0 8px 12px 0 rgba(33, 33, 33, 0.60);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    overflow: hidden;
+    /*margin:10px;*/
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    /*border: #1a202c solid 2px ;*/
+}
+
+.nav-shadow{
+    box-shadow: 0 8px 12px 0 rgba(33, 33, 33, 0.3);
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 19.5px );
+    /*border-radius: 10px;*/
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.6);
+
 }
