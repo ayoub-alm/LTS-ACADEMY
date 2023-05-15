@@ -154,8 +154,8 @@
         a:active { text-decoration: none; }
 
         .swiper {
-            width: 600px;
-            height: 300px;
+            /* width: 600px; */
+            
         }
     </style>
 
@@ -280,6 +280,126 @@
         </a>
     </div>
     <!-- FOOTER -->
+
+
+    <h2 class="display-3 m-5 text-center col-lg-12  fw-bolder" id="formationSection">
+        <span class="blue-color"> Nos Formations </span>
+    </h2>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper container-fluid" >
+
+
+            <div class="swiper-slide ">
+                <div class="row d-flex justify-content-center m-4">
+                    <div class="card col-lg-5 m-2 web ">
+                        <div class="card-body">
+                            <h5 class="card-title card-img-overlay">
+                                <a href="{{ route('development_web') }}" style="color: white;" >
+                                    DEVELOPPEMENT WEB
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="card  col-lg-5 m-1 qhse">
+                        <div class="card-body">
+                            <h5 class="card-title card-img-overlay">
+                                <a href="{{ route('qhse') }}" style="color: white;" >
+                                    RESPONSABLE QHSE
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+
+
+
+            <div class="swiper-slide ">
+                <div class="row d-flex justify-content-center m-4">
+                    <div class="card col-lg-5 m-1 DM">
+                        <div class="card-body">
+                            <h5 class="card-title card-img-overlay">
+                                <a href="{{ route('delegue_medical') }}" style="color: white;" >
+                                    DÉLÉGUÉ MÉDICAL
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+        
+                    <div class="card col-lg-5 m-2 para">
+                        <div class="card-body">
+                            <h5 class="card-title card-img-overlay">
+                                <a href="{{ route('paramedical') }}" style="color: white;" >
+                                    PARAMÉDICAL
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        
+
+
+            <div class="swiper-slide ">
+                <div class="row d-flex justify-content-center m-4">
+                  
+                    <div class="card col-lg-5 m-1 RENOUVELABLE ">
+                        <div class="card-body">
+                            <h5 class="card-title card-img-overlay">
+                                <a href="{{ route('energieRenouvelable') }}" style="color: white;" >
+                                    L'ENERGIE RENOUVELABLE
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+        
+                    <div class="card col-lg-5 m-1 logistique">
+                        <div class="card-body">
+                            <h5 class="card-title card-img-overlay">
+                                <a href="{{ route('logistique') }}" style="color: white;" >
+                                    LOGISTIQUE
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide ">
+                <div class="row d-flex justify-content-center m-4">
+                    <div class="card col-lg-5 m-1 langues">
+                        <div class="card-body">
+                            <h5 class="card-title card-img-overlay">
+                                <a href="{{ route('langues') }}" style="color: white;" >
+                                    LANGUES
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+        
+                    
+                    <div class="card col-lg-5 m-1 comptabilite">
+                        <div class="card-body">
+                            <h5 class="card-title card-img-overlay">
+                                <a href="{{ route('comptabilite') }}" style="color: white;" >
+                                    COMPTABILITÉ
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
     <footer class="container-fluid py-5 nav-shadow" style="">
         <div class="row">
             <div class="col-12 col-md">
@@ -327,84 +447,7 @@
         </div>
     </footer>
 
-
-    <div class="swiper mySwiper" style="width: 100%;">
-        <div class="swiper-wrapper row" >
-
-            <div class="swiper-slide col-lg-6">
-                <div class="card col-lg-12 m-2 DM">
-                    <div class="card-body">
-                        <h5 class="card-title card-img-overlay">
-                            <a href="{{ route('delegue_medical') }}" style="color: white;" >
-                                DÉLÉGUÉ MÉDICAL
-                            </a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide col-lg-6">
-                <div class="card col-lg-12 m-2 DM">
-                    <div class="card-body">
-                        <h5 class="card-title card-img-overlay">
-                            <a href="{{ route('delegue_medical') }}" style="color: white;" >
-                                DÉLÉGUÉ MÉDICAL
-                            </a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide col-lg-6">
-                <div class="card col-lg-12 m-2 DM">
-                    <div class="card-body">
-                        <h5 class="card-title card-img-overlay">
-                            <a href="{{ route('delegue_medical') }}" style="color: white;" >
-                                DÉLÉGUÉ MÉDICAL
-                            </a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="swiper-slide col-lg-6">
-                <div class="card col-lg-12 m-2 DM">
-                    <div class="card-body">
-                        <h5 class="card-title card-img-overlay">
-                            <a href="{{ route('delegue_medical') }}" style="color: white;" >
-                                DÉLÉGUÉ MÉDICAL
-                            </a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="swiper-slide col-lg-6">
-                <div class="card col-lg-12 m-2 DM">
-                    <div class="card-body">
-                        <h5 class="card-title card-img-overlay">
-                            <a href="{{ route('delegue_medical') }}" style="color: white;" >
-                                DÉLÉGUÉ MÉDICAL
-                            </a>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            <div class="swiper-slide">Slide 4</div>
-            <div class="swiper-slide">Slide 5</div>
-            <div class="swiper-slide">Slide 6</div>
-            <div class="swiper-slide">Slide 7</div>
-            <div class="swiper-slide">Slide 8</div>
-            <div class="swiper-slide">Slide 9</div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    </div>
+   
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -416,6 +459,10 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+            autoplay: {
+                 delay: 5000,
+            },
+            loop: true,
         });
     </script>
 

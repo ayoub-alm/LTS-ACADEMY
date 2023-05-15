@@ -66,8 +66,6 @@
     </h2>
     <div class=" row text-center d-flex justify-content-center mb-5">
         <div class="card  col-lg-3 m-2 qhse">
-
-
             <div class="card-body">
                 <h5 class="card-title card-img-overlay">
                     <a href="{{ route('qhse') }}" style="color: white;" >
