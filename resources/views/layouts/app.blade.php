@@ -332,7 +332,7 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-                <div class="card col-lg-3 m-2 DM">
+                <div class="card col-lg-12 m-2 DM">
                     <div class="card-body">
                         <h5 class="card-title card-img-overlay">
                             <a href="{{ route('delegue_medical') }}" style="color: white;" >
