@@ -329,9 +329,60 @@
 
 
     <div class="swiper mySwiper" style="width: 100%;">
-        <div class="swiper-wrapper" >
+        <div class="swiper-wrapper row" >
 
-            <div class="swiper-slide">
+            <div class="swiper-slide col-lg-6">
+                <div class="card col-lg-12 m-2 DM">
+                    <div class="card-body">
+                        <h5 class="card-title card-img-overlay">
+                            <a href="{{ route('delegue_medical') }}" style="color: white;" >
+                                DÉLÉGUÉ MÉDICAL
+                            </a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide col-lg-6">
+                <div class="card col-lg-12 m-2 DM">
+                    <div class="card-body">
+                        <h5 class="card-title card-img-overlay">
+                            <a href="{{ route('delegue_medical') }}" style="color: white;" >
+                                DÉLÉGUÉ MÉDICAL
+                            </a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide col-lg-6">
+                <div class="card col-lg-12 m-2 DM">
+                    <div class="card-body">
+                        <h5 class="card-title card-img-overlay">
+                            <a href="{{ route('delegue_medical') }}" style="color: white;" >
+                                DÉLÉGUÉ MÉDICAL
+                            </a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="swiper-slide col-lg-6">
+                <div class="card col-lg-12 m-2 DM">
+                    <div class="card-body">
+                        <h5 class="card-title card-img-overlay">
+                            <a href="{{ route('delegue_medical') }}" style="color: white;" >
+                                DÉLÉGUÉ MÉDICAL
+                            </a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide col-lg-6">
                 <div class="card col-lg-12 m-2 DM">
                     <div class="card-body">
                         <h5 class="card-title card-img-overlay">
