@@ -328,8 +328,8 @@
     </footer>
 
 
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
+    <div class="swiper mySwiper" style="width: 100%;">
+        <div class="swiper-wrapper" >
 
             <div class="swiper-slide">
                 <div class="card col-lg-12 m-2 DM">
