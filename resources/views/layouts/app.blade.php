@@ -274,11 +274,11 @@
         </main>
     </div>
 
-    <div style="height:60px;width: 60px;color:red;z-index: 15000000;position: sticky;bottom: 150px;left:92%;top:25%;">
+    {{-- <div style="height:60px;width: 60px;color:red;z-index: 15000000;position: sticky;bottom: 150px;left:92%;top:25%;">
         <a href="https://wa.link/jkyiwb" >
             <img src="{{ asset('images/wtsp.svg') }}" width="60" height="60">
         </a>
-    </div>
+    </div> --}}
     <!-- FOOTER -->
 
 
@@ -404,7 +404,11 @@
         <div class="row">
             <div class="col-12 col-md">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
-                <small class="d-block mb-3 text-muted">© 2017–2022</small>
+                <small class="d-block mb-3 text-muted">© 2017–2023</small>
+                <small class="d-block mb-3 text-muted">
+                    Created by :
+                    <a href="https://www.linkedin.com/in/ayoub-lemrachchaq-b25014143"> Ayoub Lemrachchaq</a> 
+                </small>
             </div>
             <div class="col-6 col-md">
                 <h5>Features</h5>

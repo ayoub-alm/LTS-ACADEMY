@@ -158,31 +158,24 @@
 
 </div>
 
-<div class=" container-fluid " style="background: rgba(254,186,18,0.3);" >
+<div class=" container-fluid " style="background:  rgba(77,184,196);" >
     <div class="row featurette">
-        <div class="col-md-6">
+        <div class="col-md-5">
             <img src="{{ asset('/images/homePage/section-img.png') }} " class="img-fluid" height="250px">
         </div>
-        <div class="col-md-6 text-with-img">
-            <h2 class="featurette-heading lh-2 p-4 bolder">Notre offre  <span class="text-muted">de formations </span></h2>
-            <p class="lead p-5">est variée et s’adresse à un large public : immigrants, travailleurs, étudiants ou professeurs universitaires, stagiaires postdoctoraux, candidats aux ordres professionnels, professeurs de langue…</p>
+        <div class="col-md-6 text-with-img text-center" style="color:white;">
+            <h2 class="featurette-heading lh-2 display-4 bolder" style="color:black;">Notre offre  de formations </h2>
+            <p class="lead mt-4 ml-3" style="font-size:2rem;">est variée et s’adresse à un large public : immigrants, travailleurs, étudiants ou professeurs universitaires, stagiaires postdoctoraux, candidats aux ordres professionnels, professeurs de langue…</p>
         </div>
+     
     </div>
-    <div class="row featurette mt-5">
-        <div class="col-md-6 order-md-1">
-            <img src=" {{ asset('/images/homePage/section-img2.png') }}" class="img-fluid" height="250px">
-        </div>
-        <div class="col-md-6 text-with-img">
-            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-        </div>
-    </div>
+
 </div>
 
 
 {{--  ************************ FROM  ******************************************************--}}
 
-<div class="container-fluid pt-5 pb-5   " style="background: url('https://thumbs.dreamstime.com/b/vector-school-pattern-school-seamless-background-vector-school-pattern-school-seamless-background-vector-illustration-123145059.jpg');background-attachment: fixed;">
+<div class="container-fluid pt-5 pb-5   " style="background: url('https://thumbs.dreamstime.com/b/vector-school-pattern-school-seamless-background-vector-school-pattern-school-seamless-background-vector-illustration-123145059.jpg');">
     <div class="row">
         <div class="col-lg-5 mt-3 mb-3" style="justify-content: center;display: flex; flex-direction: column;">
             <h1 class="display-3 text-center" style="color: rgba(77,184,196);margin: auto;">
