@@ -14,7 +14,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
+    <link rel="icon" type="image/x-icon" href="{{ asset('/images/ltsacademylogo.png') }}">
     <title>{{ config('app.name', 'LTS_ACADEMY') }}</title>
 
     <!-- Scripts -->
@@ -406,7 +406,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
                 <small class="d-block mb-3 text-muted">© 2017–2023</small>
                 <small class="d-block mb-3 text-muted">
-                    Created by :
+                    Created by : <br>
                     <a href="https://www.linkedin.com/in/ayoub-lemrachchaq-b25014143"> Ayoub Lemrachchaq</a> 
                 </small>
             </div>
@@ -450,8 +450,23 @@
             </div>
         </div>
     </footer>
+     <div class="sticky-element text-end text-success">
+        <a href="https://api.whatsapp.com/send?phone=0661732848&text=bonjour+j%27aurai+besoin+de+plus+d%27informations+%C3%A0+propos+de...!" target="_blank">
+            <img src="{{ asset('images/whatsapp.png')}}" alt="" width="60">
+        </a>
+     </div>
+    
 
+    <style>
+        .sticky-element {
+    position: sticky;
+    bottom: 2px;
    
+    text-align: left;
+    padding: 10px;
+   
+}
+    </style>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
